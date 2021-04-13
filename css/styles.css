@@ -1,0 +1,233 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+
+    --main-color: #2196F3;
+
+    --background-color-primary: #2F303A;
+    --background-color-secondary: #F5F4FA;
+
+    --font-menu-color: #212121;
+    --font-color-primary: #000000;
+    --font-color-secondary: #757575;
+    --font-color-third: #FFFFFF;
+
+    --border-color: #EEEEEE;
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--font-color-secondary);
+}
+
+/* ===== COMPONENTS ===== */
+
+
+/* ===== END COMPONENTS ===== */
+
+/* ===== HEADER ===== */
+
+/* ===== LOGO ===== */
+.navigation-logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo-dark {
+    color: var(--font-color-primary);
+}
+
+.logo-light {
+    color: var(--font-color-third);
+}
+
+.navigation-logo-blue {
+    color: var(--main-color);
+}
+
+/* ===== END LOGO ===== */
+
+/* ===== LINKS ===== */
+.navigation-list-item-link,
+.address-mail,
+.address-phone-number {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+}
+
+.navigation-list-item-link {
+    color: var(--font-menu-color);
+}
+
+.address-mail,
+.address-phone-number {
+    color: var(--font-color-secondary);
+}
+
+.navigation-list-item-link:hover,
+.navigation-list-item-link:focus,
+.address-mail:hover,
+.address-mail:focus,
+.address-phone-number:hover,
+.address-phone-number:focus {
+    color: var(--main-color);
+}
+
+/* ===== END LINKS ===== */
+
+.main-header {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--font-color-third);
+}
+
+.modal-button {
+    background-color: var(--main-color);
+    color: var(--font-color-third);
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.modal-button:hover,
+.modal-button:focus {
+    cursor: pointer;
+}
+
+/* ===== END HEADER ===== */
+
+/* ===== MAIN ===== */
+
+/* ===== NASZE ATUTY ===== */
+.our-strengths-list-item-text {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+.our-strengths-list-item-header {
+    color: var(--font-menu-color);
+    font-weight: 700;
+    line-height: 1.143;
+    text-transform: uppercase;
+}
+
+.our-strengths-list-item-description {
+    line-height: 1.714;
+}
+
+/* ===== END NASZE ATUTY ===== */
+
+/* ===== CZYM SIĘ ZAJMUJEMY ===== */
+
+/**/
+.secondary-header {
+    color: var(--font-menu-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* ===== END CZYM SIĘ ZAJMUJEMY ===== */
+
+/* ===== NASZ ZESPÓŁ ===== */
+
+.team-list-item {
+    background-color: var(--background-color-secondary);
+}
+
+.team-list-item-header {
+    color: var(--font-menu-color);
+    font-weight: 500;
+}
+
+.team-list-item-description,
+.team-list-item-header {
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* ===== END NASZ ZESPÓŁ ===== */
+
+/* ===== END MAIN ===== */
+
+/* ===== FOOTER ===== */
+.address-font {
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+}
+
+.address-target {
+    color: var(--font-color-third);
+    text-decoration: none;
+}
+
+.footer .address-phone-number,
+.footer .address-mail {
+    color: #FFFFFF99;
+}
+
+/* ===== END FOOTER ===== */
+
+/* ===== PORTFOLIO - BUTTONS ===== */
+
+.projects-button {
+    color: var(--font-menu-color);
+    background-color: var(--background-color-secondary);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.projects-button:hover,
+.projects-button:focus {
+    color: var(--font-color-third);
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+
+/* ===== END PORTFOLIO - BUTTONS ===== */
+
+/* ===== PORTFOLIO - PROJECTS CARDS ===== */
+
+.project-list-item {
+    background-color: var(--font-color-third);
+    border: 1px solid var(--border-color);
+}
+
+.project-list-item-header {
+    color: var(--font-menu-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-list-item-desc {
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+
+}
+
+/* ===== END PORTFOLIO - PROJECTS CARDS ===== */
