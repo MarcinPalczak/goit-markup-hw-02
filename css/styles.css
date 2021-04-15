@@ -22,6 +22,14 @@ body {
 
 /* ===== COMPONENTS ===== */
 
+.navigation-list-item-link,
+.address-target,
+.address-mail,
+.address-phone-number,
+.footer .address-mail,
+.footer .address-phone-number {
+    text-decoration: none;
+}
 
 /* ===== END COMPONENTS ===== */
 
