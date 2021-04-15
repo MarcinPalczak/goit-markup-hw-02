@@ -27,6 +27,15 @@ body {
 
 /* ===== HEADER ===== */
 
+.header {
+    background-color: var(--background-color-primary);
+}
+
+.navigation,
+.navigation-contacts{
+    background-color: var(--background-color-secondary);
+}
+
 /* ===== LOGO ===== */
 .navigation-logo {
     font-family: var(--secondary-font);
@@ -169,6 +178,10 @@ body {
 /* ===== END MAIN ===== */
 
 /* ===== FOOTER ===== */
+.footer {
+    background-color: var(--background-color-primary);
+}
+
 .address-font {
     font-size: 14px;
     line-height: 1.714;
